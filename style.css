@@ -1,11 +1,11 @@
 /* Mobile First */
 
-* {
-    /* border: solid red 1px; */
-    /* Useful trick to see all CSS boxes */
-    /* background-color: #3865fc;
-    color: whitesmoke; */
-}
+*
+h1 {
+    color: red;
+    margin-left: 20px;
+  }
+
 
 header {
     padding: 15px;
@@ -13,8 +13,22 @@ header {
     font-size:x-large;
 }
 
+
+.nav {
+    background-color: burlywood; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
 .title {
-    background-color: #3594f2;
     color: #7338fc;
     font-weight: bolder;
 }
@@ -27,10 +41,6 @@ header {
 
 
 
-h1 {
-    color: navy;
-    margin-left: 20px;
-  }
 
 
 .dog {
